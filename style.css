@@ -1,13 +1,13 @@
 /* interface */
 body > .container {
     display: grid;
-    grid-template-columns: 30em 1fr 30em;
+    grid-template-columns: 30rem 1fr 30rem;
     height: 100vh;
 }
 
 /* Header */
 html {
-    font-size: 1em;
+    font-size: 1rem;
 }
 body {
     font-family: 'libre baskerville';
@@ -21,8 +21,8 @@ body {
 .header > :first-child {
     display: flex;
     align-items: center;
-    padding: 1em 4em;
-    gap: 2em;
+    padding: 1rem 4rem;
+    gap: 2rem;
     border-bottom: 1px grey;
 }
 .search-bar {
@@ -37,23 +37,23 @@ body {
 /* bottom bar */
 .header > :last-child {
     display: flex;
-    padding: 1em 4em;
+    padding: 1rem 4rem;
 }
 .header > .container > ul {
     font-family: 'mohave';
-    font-size: 1.5em;
+    font-size: 1.5rem;
     padding: 0;
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 6em;
-    gap: 1em;
+    grid-auto-columns: 6rem;
+    gap: 1rem;
     list-style: none;
     justify-items: center;
     align-items: center;
     margin-left: auto;
 }
 .header > .container > ul > li > a {
-    padding: .5em 2em;
+    padding: .5rem 2rem;
     background: #A14646;
     border-radius: 100px;
     color: white
@@ -64,15 +64,15 @@ body {
     border-radius: 50%;
 }
 .large-icon {
-    width: 6em;
-    height: 6em;
+    width: 6rem;
+    height: 6rem;
 }
 .small-icon {
-    width: 4em;
-    height: 4em;
+    width: 4rem;
+    height: 4rem;
 }
 .welcome-message {
-    margin: auto 2em;
+    margin: auto 2rem;
 }
 .welcome-message h1, h4 {
     margin: 0;
@@ -92,16 +92,16 @@ body {
 }
 .sidebar ul li {
     display: grid;
-    grid-template-columns: 2em 8em;
-    gap: .5em;
+    grid-template-columns: 4rem 8rem;
+    gap: 1rem;
     align-items: center;
-    font-size: 2em;
+    font-size: 3rem;
 }
 .spacer {
-    height: 2em;
+    height: 3rem;
 }
 .mdi {
-    font-size: 2em;
+    font-size: 3rem;
 }
 
 /* main */
@@ -117,48 +117,48 @@ body {
 
 /* projects */
 .projects {
-    padding: 1em;
+    padding: 1rem;
 }
 .projects .container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 1em;
+    gap: 1rem;
 }
 .card {
     background: white;
-    border-left: 1em solid #A14646;
-    padding: 1em;
-    border-radius: 1em;
-    box-shadow: .5em .5em .5em lightgrey;
+    border-left: 1rem solid #A14646;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem .5rem lightgrey;
 }
 
 /* announcements */
 .announcements {
-    padding: 1em;
+    padding: 1rem;
 }
 .announcements .container {
     background: white;
-    padding: 2em 3em;
-    border-radius: 1em;
-    box-shadow: .5em .5em .5em lightgrey;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem .5rem lightgrey;
 }
 
 /* trending */
 .trending {
-    padding: 1em;
+    padding: 1rem;
 }
 .trending .container {
     background: white;
-    padding: 2em 3em;
-    border-radius: 1em;
-    box-shadow: .5em .5em .5em lightgrey;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    box-shadow: .5rem .5rem .5rem lightgrey;
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: 1rem;
 }
 .user {
     display: flex;
-    gap: 1em;
+    gap: 1rem;
 }
 .user > :last-child > * {
     margin: 0;
@@ -167,5 +167,5 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: .5em;
+    gap: .5rem;
 }
