@@ -1,0 +1,103 @@
+/* interface */
+body > .container {
+    display: grid;
+    grid-template-columns: 300px 1fr 350px;
+}
+body > .container > div {
+    border: solid red 1px;
+}
+
+/* Header */
+body {
+    font-family: 'libre baskerville';
+}
+.header {
+    grid-column: span 2;
+}
+.header > .container {
+    display: flex;
+    border: 1px solid red;
+}
+.header > .container > ul {
+    font-family: 'mohave';
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 6em;
+    gap: 1em;
+    list-style: none;
+    justify-items: center;
+    align-items: center;
+    margin-left: auto;
+}
+.header > .container > ul > li > a {
+    border: 1px solid red;
+}
+.profile-icon {
+    width: 70px;
+    height: 70px;
+    background-color: lightgrey;
+}
+
+.welcome-message {
+    margin: auto 2em;
+}
+.welcome-message h3, h5 {
+    margin: 0;
+}
+.header .container:nth-of-type(2) {
+    padding: 1em;
+}
+
+/* side bar */
+.sidebar {
+    background-color: #A14646;
+    grid-row: span 2;
+    font-family: 'mohave';
+    color: white;
+    padding: 1em;
+}
+
+/* main */
+.main {
+    background: lightgray;
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: subgrid;
+}
+.main > .projects {
+    grid-row: span 2;
+}
+
+/* projects */
+.projects {
+    padding: 1em;
+}
+.projects .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1em;
+}
+.card {
+    background: white;
+    border-left: 3px solid #A14646;
+    padding: 1em;
+}
+
+/* announcements */
+.announcements {
+    padding: 1em;
+}
+.announcements .container {
+    background: white;
+    padding: 1em;
+}
+
+/* trending */
+.trending {
+    padding: 1em;
+}
+.trending .container {
+    background: white;
+    padding: 1em;
+}
