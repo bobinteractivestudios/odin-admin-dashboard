@@ -6,6 +6,9 @@ body > .container {
 }
 
 /* Header */
+html {
+    font-size: 1em;
+}
 body {
     font-family: 'libre baskerville';
     margin: 0;
